@@ -1,0 +1,31 @@
+
+@media (min-width: 768px) {
+    .contenar {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .contenar {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .contenar {
+        width: 1170px;
+    }
+}
+@media (max-width:550px) {
+    .project .contenar .card {
+        border-radius: 10px !important;
+    }
+    .project .contenar .card main .questions .question-contenar .question-body{
+        transition: 1.2s ease-in-out ;
+        
+    }
+    .project .contenar .card main .questions .question-contenar .active{
+        max-height: 200px !important; 
+    }
+    .attribution{
+        bottom: 0 !important;
+    }
+}
